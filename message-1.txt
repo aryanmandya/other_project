@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+     initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Syne+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /*CSS reset*/
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('bg3.jpg');
+        }
+        .left{
+            color: black;
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 30px;
+        
+        }
+        .mid{
+            color: black;
+            display: block;
+            width: 50%;
+            margin: auto;
+            top: 30px;
+        }
+        
+
+        
+        .navbar{
+            display: inline-block;
+            background-color: black;
+            border: 2px;
+            border-radius: 10px;
+            padding: 20px;
+            
+        }
+        .navbar li{
+            display: inline-block;
+            color: darkorange;
+            margin: auto;
+        }
+        .navbar li a{
+            color: white;
+            display: inline;
+            text-decoration: none;
+            padding: 30px 20px;
+            font-size: 35px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: rgb(97, 109, 214);
+        }
+        .left img{
+            width: 25%;
+        }
+        
+        .left div{
+            text-align: center;
+            width: 25%;
+        }
+        
+        .right{
+            color: black;
+            display: inline-block;
+            position: absolute;
+            right: 30px;
+            top: 30px;   
+        }
+        .right:hover{
+            cursor: pointer;
+            background-color: rgb(184, 162, 206);
+            text-decoration: underline;
+        }
+        .container{
+            border: 3px solid green;
+            margin: auto auto;
+            padding: 3px 3px;
+            width: 75%;
+            font-size: 45px;
+            text-align: center;
+            background-color: #b1c4c4;
+            border-radius: 20px;
+        }
+        .welcome{
+            font-family: 'Libre Baskerville', serif;
+        }
+        .content{
+            font-size: 33px;
+            padding: 5px;
+            text-align: justify;
+            
+            
+
+        }
+        .con2{
+            font-size: 33px;
+            padding: 5px;
+            text-align: justify;
+            
+
+        }
+        .que{
+            font-size: 33px;
+            padding: 5px;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="left"> 
+        <img src="logo2.jpg" alt="">
+        <div>App name</div>  
+    </div>
+    <div class="right"><b>PROFILE</b>
+    
+    </div>
+    <div class="mid"> 
+        <ul class="navbar">
+        <li> <a href="#"  class="active">Home</a> </li>
+        <li><a href="#">Transactions</a></li>
+        <li><a href="#">Wallet</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    </div>
+    <div class="container">
+         <p class="welcome">Welcome to the Best Transaction management website</p> 
+        <p class="content"> In this website, you can make a record of your daily,monthly and yearly Transactions, so that you dont have to make extra efforts on that budget list
+             <br> 
+        </p>
+        <p class="con2">This website will also give you valuable tips on how you can save more money.</p>
+           <p class="que">So, what are you waiting for?  </p>
+           <p class="que">Go to the transactions tab and fill the form to record your transactions</p>
+    </div>
+    
+</body>
+</html>
